@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>My First JavaScript</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+</head>
+<body>
+	<img class="floatright" id="glass-img" src="glass.crdownload" />
+<script>
+// substitute your favorite drink below
+var drink = "nothing (im dehydrated)";
+var lyrics = "";
+var cans = 99;
+while (cans > 0) {
+	lyrics = lyrics + cans + " cups of " + drink + " on the wall <br>";
+	lyrics = lyrics + cans + " cups of " + drink + "<br>";
+	lyrics = lyrics + "Take one down, pass it around, <br>";
+	if (cans > 1) {
+		lyrics = lyrics + (cans-1) + " cup of " + drink + " on the wall <br>";
+	}
+	else {
+		lyrics = lyrics + "No more cups of " + drink + " on the wall <br>";
+	}
+	cans = cans - 1;
+}
+document.write(lyrics);
+</script>
+</body>
+</html>
+
