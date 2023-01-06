@@ -5,7 +5,7 @@ function save(item) {
 	localStorage.setItem("playlist", JSON.stringify(playlistArray));
 }
 
-function loadPlaylist() {
+function loadplaylist() {
 	var playlistArray = getSavedSongs();
 	var ul = document.getElementById("playlist");
 	if (playlistArray != null) {
