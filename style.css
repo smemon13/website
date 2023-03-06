@@ -70,6 +70,13 @@ body {
     clear: right;
     margin: 10px;
   }
+
+  .floatleft {
+    float: left;
+    clear: left;
+    margin: 10px;
+    width: 800px;
+  }
   
   #img-rotate {
     z-index: -1;
