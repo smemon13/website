@@ -35,17 +35,16 @@ window.onload = init;
   </div>
 <h1>Title</h1>
 
-<img class="floatright" id="Q47" alt="Q47" src="Q47.png" />
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
 
-<p>This showcases the history.back API, which lets you move back in a page similar to the back arrow in the top left of a browser.</p>
-
-<button onclick="backbackback()">Go Back</button>
-
-<script>
-function backbackback() {
-  window.history.back();
-}
-</script>
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
 
 <footer>
 <a id="vLink1"><strong> HTML </strong> Valid! </a> |
